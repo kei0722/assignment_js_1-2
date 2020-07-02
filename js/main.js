@@ -1,6 +1,6 @@
 'use strict';
 
-do {
+while (true) {
   let result = prompt("日本の首都は？");
 
   if ( result === "東京" ) {
@@ -8,4 +8,4 @@ do {
   } else {
     alert("不正解です！");
   }
-} while (true)
+}
